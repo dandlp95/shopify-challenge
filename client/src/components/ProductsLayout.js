@@ -12,7 +12,7 @@ function ProductsLayout() {
     padding: "2rem",
   };
 
-  const url = "http://localhost:8080/backend/products";
+  const url = "https://shopify-challenge.dandlp95.repl.co/backend/products";
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ function ProductsLayout() {
         {products.map((product) => {
           async function deleteProduct() {
             const id = product._id;
-            const url = `http://localhost:8080/backend/products/delete_product/${id}`;
+            const url = `https://shopify-challenge.dandlp95.repl.co/backend/products/delete_product/${id}`;
 
             const options = {
               method: "DELETE",

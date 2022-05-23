@@ -5,7 +5,7 @@ function AddProductForm() {
     display: "block",
     margin: "1rem 0rem"
   }
-  const url = "http://localhost:8080/backend/products/add_product";
+  const url = "https://shopify-challenge.dandlp95.repl.co/backend/products/add_product";
 
   const productNameInputRef = useRef();
   const descriptionInputRef = useRef();
@@ -37,7 +37,7 @@ function AddProductForm() {
     };
 
     await addProductHandler(productData);
-    window.location.replace("http://localhost:8080/products");
+    window.location.replace("https://shopify-challenge.dandlp95.repl.co/products");
 
   }
 

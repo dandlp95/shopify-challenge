@@ -10,8 +10,8 @@ function EditProductForm() {
   }
 
   const { id } = useParams();
-  const url = `http://localhost:8080/backend/edit_product/${id}`;
-  const urlGet = `http://localhost:8080/backend/products/${id}`;
+  const url = `https://shopify-challenge.dandlp95.repl.co/backend/edit_product/${id}`;
+  const urlGet = `https://shopify-challenge.dandlp95.repl.co/backend/products/${id}`;
 
   const [product, setProduct] = useState(null);
 
@@ -44,7 +44,7 @@ function EditProductForm() {
     };
 
     await editProductHandler(productData);
-    window.location.replace("http://localhost:8080/products");
+    window.location.replace("https://shopify-challenge.dandlp95.repl.co/products");
   }
 
   useEffect(() => {

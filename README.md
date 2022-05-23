@@ -6,7 +6,7 @@ The application will also allow you to manage your warehouses, and add inventory
 
 ## How to run the web app
 
-
+This app is designed to run on Replit. 
 
 
 

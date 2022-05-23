@@ -7,7 +7,7 @@ function WarehouseInfo() {
   const { id } = useParams();
   const [warehouse, setWarehouse] = useState(null);
 
-  const url = `http://localhost:8080/backend/warehouses/${id}`;
+  const url = `https://shopify-challenge.dandlp95.repl.co/backend/warehouses/${id}`;
 
   useEffect(() => {
     axios.get(url).then((response) => {

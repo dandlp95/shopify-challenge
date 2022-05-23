@@ -7,7 +7,7 @@ function WarehouseInventory() {
   const { id } = useParams();
   const [inventory, setInventory] = useState(null);
 
-  const url = `http://localhost:8080/backend/warehouses/getInventory/${id}`;
+  const url = `https://shopify-challenge.dandlp95.repl.co/backend/warehouses/getInventory/${id}`;
 
   useEffect(() => {
     axios.get(url).then((response) => {

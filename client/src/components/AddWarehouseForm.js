@@ -6,7 +6,7 @@ function AddWarehouseForm(){
         margin: "1rem 0rem"
       }
 
-    const url = "http://localhost:8080/backend/warehouses/add_warehouse";
+    const url = "https://shopify-challenge.dandlp95.repl.co/backend/warehouses/add_warehouse";
 
     const warehouseNameInput = useRef();
     const locationInput = useRef();
@@ -35,7 +35,7 @@ function AddWarehouseForm(){
         }
 
         await addWarehouseHandler(productData);
-        window.location.replace("http://localhost:8080/warehouses");
+        window.location.replace("https://shopify-challenge.dandlp95.repl.co/warehouses");
 
     }
 

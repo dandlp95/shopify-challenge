@@ -8,7 +8,7 @@ function AddInventoryForm() {
     margin: "1rem 0rem",
   };
 
-  const urlAllWarehouses = "http://localhost:8080/backend/warehouses";
+  const urlAllWarehouses = "https://shopify-challenge.dandlp95.repl.co/backend/warehouses";
   const [warehouses, setWarehouses] = useState(null);
 
   const { id } = useParams(); // This is id of the product
@@ -38,10 +38,10 @@ function AddInventoryForm() {
       quantity: enteredQuantity,
     };
 
-    const urlReq = `http://localhost:8080/backend/warehouses/${enteredWarehouse}/${productId}`;
+    const urlReq = `https://shopify-challenge.dandlp95.repl.co/backend/warehouses/${enteredWarehouse}/${productId}`;
 
     await addInventoryHandler(quantity, urlReq);
-    window.location.replace("http://localhost:8080/success");
+    window.location.replace("https://shopify-challenge.dandlp95.repl.co/success");
   }
 
   useEffect(() => {

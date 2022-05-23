@@ -9,7 +9,7 @@ function WarehouseLayout() {
     margin: "3rem 0"
   }
 
-  const url = "http://localhost:8080/backend/warehouses";
+  const url = "https://shopify-challenge.dandlp95.repl.co/backend/warehouses";
   const [warehouses, setWarehouses] = useState(null);
 
   useEffect(() => {
