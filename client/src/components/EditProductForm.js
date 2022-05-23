@@ -64,7 +64,7 @@ function EditProductForm() {
             id="productName"
             required
             ref={productNameInputRef}
-            value={product.productName}
+            placeholder={product.productName}
             style={formStyle}
           />
 
@@ -74,7 +74,7 @@ function EditProductForm() {
             id="description"
             required
             ref={descriptionInputRef}
-            value={product.description}
+            placeholder={product.description}
             rows="5"
             style={formStyle}
           ></textarea>
@@ -85,7 +85,7 @@ function EditProductForm() {
             required
             id="quantity"
             ref={quantityInputRef}
-            value={product.quantity}
+            placeholder={product.quantity}
             style={formStyle}
           />
 
