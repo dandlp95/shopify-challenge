@@ -10,7 +10,7 @@ function EditProductForm() {
   }
 
   const { id } = useParams();
-  const url = `https://shopify-challenge.dandlp95.repl.co/backend/edit_product/${id}`;
+  const url = `https://shopify-challenge.dandlp95.repl.co/backend/products/edit_product/${id}`;
   const urlGet = `https://shopify-challenge.dandlp95.repl.co/backend/products/${id}`;
 
   const [product, setProduct] = useState(null);
