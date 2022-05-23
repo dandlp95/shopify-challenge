@@ -6,7 +6,9 @@ The application will also allow you to manage your warehouses, and add inventory
 
 ## How to run the web app
 
-This app is designed to run on Replit. Once you open the Replit project, simply click the play button and the web app will open in a window inside Replit. 
+This app is designed to run on Replit. Open the web app in Replit and follow this steps: 
+* Make sure that under "configure the run button" it says: "npm start"
+* simply click the play button and the web app will open in a window inside Replit. 
 
 Once you have the project running in Replit, you can access the application here: https://shopify-challenge.dandlp95.repl.co/
 
